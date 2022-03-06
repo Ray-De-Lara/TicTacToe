@@ -1,0 +1,67 @@
+.ads{
+    text-align: center;
+    margin: .4vw 0;
+    background: #F4CC70;
+    padding: .4vw;
+  }
+  
+  .content{
+    margin: .4vw 0;
+    background: lightblue;
+    padding: .4vw;
+  }
+  .tic-panel{
+    border: solid 2px black;
+    margin: .4vw 0;
+    background: #66A5AD;
+    padding: .4vw;
+  }
+  
+  .tic-box{
+    border: solid black 1px;
+    font-size: 5vw;
+    background: #6AB187;
+    text-align: center;
+    color: lavender;
+  }
+  .tic-box:hover{
+    background: #20948B;
+  }
+  .x{
+      background-color: #ad6666;
+  }
+  .o{
+      background-color: #666ead;
+  }
+
+  .modal{
+    color: #fdbebe;
+    font-size: 40px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    width: 422px;
+    height: 362px;
+    position: absolute;
+    background-color: red;
+    border-radius: 10px;
+    display: none;
+
+}
+.modal p{
+    position: absolute;
+    margin-top: -150px;
+}
+.reload{
+    position: absolute;
+    margin-top: 150px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
